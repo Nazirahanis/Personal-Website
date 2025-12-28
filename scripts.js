@@ -1,0 +1,148 @@
+// ===== COURSE DATA =====
+const data = {
+    ds: {
+        title: "Discrete Structure",
+        desc: "This course introduces students to the principles and applications of discrete structure in the field of computer science.",
+        reflection: "In this course, I got knowledges about principles and applications of discrete structure in the field of computer science. It gave me better understanding how these the mathematical concepts apply to real-world computing problems, including algorithms and data structures. One of the most useful aspects of this course was learning logical thinking and proof techniques. These skills helped me improve my ability to analyze problems step by step and justify solutions clearly.",
+        items: [
+            { type: "Assignment", title: "Assignment 1 : Logic", description: "Propositions and truth tables." },
+            { type: "Assignment", title: "Assignment 2 : Relations", description: "Functions and equivalence relations." },
+            { type: "Assignment", title: "Assignment 3: ", description: "Graph traversal techniques." }
+        ]
+    },
+
+    pt1: {
+        title: "Programming Technique I",
+        desc: "Introduction to C++ programming.",
+        reflection: "I learned programming fundamentals.",
+        items: [
+            { type: "Assignment", title: "Assignment 1 – Basics", description: "Variables and I/O." },
+            { type: "Lab", title: "Lab 1 – Control", description: "Loops and conditionals." }
+        ]
+    },
+
+    tis: {
+        title: "Technology & Information System",
+        desc: "Information systems and digital technology.",
+        reflection: "I learned how IT supports organizations.",
+        items: [
+            { type: "Project", title: "Industry Talk Poster", description: "Poster design and analysis." }
+        ]
+    },
+
+    dl: {
+        title: "Digital Logic",
+        desc: "Boolean algebra and logic gates.",
+        reflection: "Improved understanding of digital circuits.",
+        items: [
+            { type: "Lab", title: "Logic Gate Lab", description: "Built circuits using gates." }
+        ]
+    },
+
+    kiar: {
+        title: "Integrity & Anti-Corruption",
+        desc: "Ethics and integrity in society.",
+        reflection: "Learned about moral responsibility.",
+        items: [
+            { type: "Project", title: "Integrity Video", description: "Awareness video project." }
+        ]
+    }
+};
+
+// ===== ELEMENT REFERENCES =====
+const home = document.getElementById("home");
+const nav = document.getElementById("nav");
+const subjectPage = document.getElementById("subjectPage");
+const detailPage = document.getElementById("detailPage");
+
+const subjectTitle = document.getElementById("subjectTitle");
+const subjectDesc = document.getElementById("subjectDesc");
+const courseReflection = document.getElementById("courseReflection");
+const itemList = document.getElementById("itemList");
+const courseButtons = document.getElementById("courseButtons");
+
+const detailTitle = document.getElementById("detailTitle");
+const detailDesc = document.getElementById("detailDesc");
+
+// ===== SAFETY: HIDE HOME INITIALLY =====
+home.style.display = "none";
+nav.style.display = "none";
+
+// ===== LANDING → HOME =====
+function showHome() {
+    document.querySelector(".landing").style.display = "none";
+    home.style.display = "block";
+    nav.style.display = "block";
+}
+
+// ===== OPEN COURSE PAGE =====
+function openSubject(key) {
+    home.style.display = "none";
+    detailPage.style.display = "none";
+    subjectPage.style.display = "block";
+
+    const s = data[key];
+
+    subjectTitle.innerText = s.title;
+    subjectDesc.innerText = s.desc;
+    courseReflection.innerText = s.reflection;
+
+    itemList.innerHTML = s.items.map((item, index) =>
+        `<li onclick="openDetail('${key}', ${index})">
+            ${item.type}: ${item.title}
+         </li>`
+    ).join("");
+
+    courseButtons.innerHTML = Object.keys(data)
+        .filter(code => code !== key)
+        .map(code =>
+            `<button class="course-btn" onclick="openSubject('${code}')">
+                ${code.toUpperCase()}
+            </button>`
+        ).join("");
+}
+
+// ===== OPEN ITEM DETAIL =====
+function openDetail(subjectKey, index) {
+    subjectPage.style.display = "none";
+    detailPage.style.display = "block";
+
+    const item = data[subjectKey].items[index];
+    detailTitle.innerText = item.title;
+    detailDesc.innerText = item.description;
+}
+
+// ===== BACK BUTTONS =====
+function backHome() {
+    subjectPage.style.display = "none";
+    detailPage.style.display = "none";
+    home.style.display = "block";
+}
+
+function backSubject() {
+    detailPage.style.display = "none";
+    subjectPage.style.display = "block";
+}
+
+// ===== PROFILE BUTTON ACTIONS =====
+function goCourses() {
+    document.getElementById("courses").scrollIntoView({ behavior: "smooth" });
+}
+
+function goContact() {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+}
+
+function openProjects() {
+    window.location.href = "project.html";
+}
+
+// ===== SKIP LANDING IF COMING FROM PROJECT PAGE =====
+window.onload = function () {
+    if (localStorage.getItem("skipLanding") === "yes") {
+        document.querySelector(".landing").style.display = "none";
+        home.style.display = "block";
+        nav.style.display = "block";
+        localStorage.removeItem("skipLanding");
+    }
+};

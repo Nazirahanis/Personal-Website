@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Project Details</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav style="display:block">My Website</nav>
+
+<div style="max-width:900px; margin:100px auto; padding:20px;">
+
+    <div class="back" onclick="backToProjects()">← Back to Projects</div>
+
+    <div class="card">
+        <h2 id="projectTitle"></h2>
+        <p id="projectDesc"></p>
+        <p><b>Tools:</b> <span id="projectTools"></span></p>
+    </div>
+
+</div>
+
+<script>
+const projects = {
+    portfolio: {
+        title: "E-Portfolio Website",
+        desc: `
+This project documents the development of my personal e-portfolio.
+
+It showcases my academic background, skills, courses, and reflections
+as a Computer Science (Data Engineering) student.
+
+The portfolio serves as a professional platform to present my
+learning journey and achievements.
+        `,
+        tools: "HTML, CSS, JavaScript"
+    }
+};
+
+// read URL parameter
+const params = new URLSearchParams(window.location.search);
+const projectKey = params.get("project");
+
+// load project
+if (projects[projectKey]) {
+    document.getElementById("projectTitle").innerText =
+        projects[projectKey].title;
+    document.getElementById("projectDesc").innerText =
+        projects[projectKey].desc;
+    document.getElementById("projectTools").innerText =
+        projects[projectKey].tools;
+}
+
+function backToProjects() {
+    window.location.href = "project.html";
+}
+</script>
+
+</body>
+</html>

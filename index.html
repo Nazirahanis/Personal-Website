@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My E-Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LANDING -->
+<div class="landing">
+    <h1>My E-Portfolio</h1>
+    <img src="Image/nazirah.jpg">
+    <button onclick="showHome()">About Me</button>
+</div>
+
+<nav id="nav">My Website</nav>
+
+<!-- HOME -->
+<div class="home" id="home">
+<div class="top-layout">
+
+<!-- LEFT -->
+<div class="left">
+    <img src="Image/nazirah.jpg">
+    <h3>NUR NAZIRAH HANIS BINTI NAZRI</h3>
+
+    <div class="profile-buttons">
+        <button onclick="goCourses()">Course</button>
+        <button onclick="goContact()">Contact</button>
+        <button onclick="openProjects()">Project</button>
+    </div>
+</div>
+
+
+<!-- RIGHT -->
+<div class="right">
+
+<!-- BACKGROUND -->
+<div class="card">
+    <h2>Background</h2>
+    <ul>
+        <li>Year 1 Computer Science (Data Engineering) student at UTM</li>
+        <li>Learning C++, Java, HTML</li>
+        <li>Languages: Malay & English</li>
+    </ul>
+
+    <h3>Education</h3>
+<ul>
+    <li>
+        <b>Universiti Teknologi Malaysia (2025-Present)</b>
+        <ul>
+            <li>Course: Bachelor of Computer Science (Data Engineering)</li>
+        </ul>
+    </li>
+
+    <li>
+        <b>Kolej Matrikulasi Kedah (2024-2025)</b>
+        <ul>
+            <li>Course: Physical Science</li>
+            <li>CGPA: 4.00</li>
+            <li>MUET: Band 4</li>
+        </ul>
+    </li>
+
+     <li>
+        <b>SMKA Al-Irshad (2019-2023)</b>
+        <ul>
+            <li>SPM: 7A 4B</li>
+        </ul>
+    </li>
+</ul>
+
+</div>
+
+<!-- GRID -->
+<div class="card-grid">
+
+<div class="card">
+    <h3>Postions & Roles</h3>
+    <ul>
+    <li>
+        <b>Universiti Teknologi Malaysia</b>
+        <ul>
+            <li>SUSKOM'25 : Activity Unit</li>
+            <li>SRM JLM'25 : Sponsorship Unit</li>
+            <li>KTR Ihya Ramadan'25 : Special Task Unit</li>
+        </ul>
+    </li>
+
+    <li>
+        <b>Kolej Matrikulasi Kedah</b>
+        <ul>
+            <li>AJK Kolej Kediaman : AJK Kerohanian (2024-2025)</li>
+            <li>Kelab Rakan Sukan : Treasurer (2024-2025)</li>
+            <li>F4T1 Sepak Penalti : AJK Pendaftaran (2024)</li>
+            <li>F4T1 Komik Insaniah : AJK Program (2025)</li>
+        </ul>
+    </li>
+
+    <li>
+        <b>SMKA Al-Irshad</b>
+        <ul>
+            <li>Pengawas Pusat Sumber</li>
+            <li>Persatuan Bahasa Arab : Secretary</li>
+        </ul>
+    </li>
+</ul>
+
+</div>
+
+<div class="card">
+    <h3>Certificate & Award</h3>
+    <ul>
+    <li>
+        <b>Universiti Teknologi Malaysia</b>
+        <ul>
+            <li>UTMD InsightX 3 "Information System" : Participation (2025)</li>
+            <li>UTMD InsightX 4 "Digital Infra & Data Engineering" : Participation (2025)</li>
+        </ul>
+    </li>
+
+    <li>
+        <b>Kolej Matrikulasi Kedah</b>
+        <ul>
+            <li>Kuiz Kimia Kebangsaan : Participant (National)</li>
+            <li>Introduction to Comic Design for STEM Education : Participant (National)</li>
+            <li>Matrikulation STEM Comic Challenge 2024 : Participant (College)</li>
+        </ul>
+    </li>
+
+    <li>
+        <b>SMKA Al-Irshad</b>
+        <ul>
+            <li>International Essay Contest Go I Peace 2023 : Participant (International)</li>
+            <li>Cabaran Math Whiz 2023 : Participant (International)</li>
+            <li>Kuiz Teknologi Hijau : Participant (National)</li>
+            <li>Kuiz Pengetahuan Badan Beruniform 2023 : Participant (National)</li>
+        </ul>
+    </li>
+</ul>
+
+</div>
+
+<div class="card">
+    <h3>Skills</h3>
+    <ul>
+        <li>Programming: Java, C++, HTML</li>
+        <li>Software & Tools : Canva, Microsoft Word, Microsoft Excel, Capcut</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h3>Language</h3>
+    <ul>
+        <li>Malay : Native</li>
+        <li>English : Fluent</li>
+        <li>Arabic : Beginner</li>
+        <li>Korean : Beginner</li>
+    </ul>
+</div>
+
+<div class="card" id="courses">
+    <h3>Courses</h3>
+    <ul class="list">
+        <li onclick="openSubject('ds')">SECI1013 – Discrete Structure</li>
+        <li onclick="openSubject('pt1')">SECJ1013 – Programming Technique I</li>
+        <li onclick="openSubject('tis')">SECP1513 – Technology & Information System</li>
+        <li onclick="openSubject('dl')">SECR1013 – Digital Logic</li>
+        <li onclick="openSubject('kiar')">URLS1032 – Integrity & Anti-Corruption</li>
+    </ul>
+</div>
+
+<div class="card" id="contact">
+    <h3>Contact</h3>
+    <ul> 
+        <li>Email : nazirahanis006@gmail.com</li>
+        <li>Github : Fluent</li>
+        <li>LinkedIn : Beginner</li>
+    </ul>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+<!-- SUBJECT PAGE -->
+<div class="page" id="subjectPage">
+
+    <!-- BACK BUTTON -->
+    <div class="back" onclick="backHome()">← Back</div>
+
+    <!-- COURSE SWITCHER -->
+    <div id="courseSwitcher">
+    <div id="courseButtons"></div>
+</div>
+
+
+    <div class="card">
+        <h2 id="subjectTitle"></h2>
+        <p id="subjectDesc"></p>
+    </div>
+
+    <div class="card">
+        <h3>Course Reflection</h3>
+        <p id="courseReflection"></p>
+    </div>
+
+    <div class="card">
+        <h3>Assignments, Labs & Projects</h3>
+        <ul class="list" id="itemList"></ul>
+    </div>
+
+</div>
+
+<!-- DETAIL PAGE -->
+<div class="page" id="detailPage">
+<div class="back" onclick="backSubject()">← Back</div>
+
+<div class="card">
+    <h2 id="detailTitle"></h2>
+    <p id="detailDesc"></p>
+</div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

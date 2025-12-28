@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8d7e8;
+}
+
+/* LANDING */
+.landing {
+    height: 100vh;
+    background: #d63384;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.landing button {
+    padding: 12px 25px;
+    border: none;
+    background: #ff69b4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* NAV */
+nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #d63384;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* HOME */
+.home {
+    display: none;
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* LAYOUT */
+.top-layout {
+    display: flex;
+    gap: 20px;
+}
+
+.left {
+    width: 220px;
+    text-align: center;
+}
+
+.left img {
+    width: 140px;
+    border-radius: 50%;
+}
+
+.right {
+    flex: 1;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(214,51,132,0.3);
+    margin-bottom: 20px;
+}
+
+/* LIST */
+.list {
+    padding-left: 0;
+}
+.list li {
+    list-style: none;
+    padding: 6px 0;
+    color: #d63384;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list li:hover {
+    text-decoration: underline;
+}
+
+/* PAGE */
+.page {
+    display: none;
+    max-width: 900px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+.back {
+    font-weight: bold;
+    color: #d63384;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    margin: 6px 0;
+    padding-left: 20px;
+}
+
+/* list items */
+.card li {
+    margin-bottom: 4px;
+    line-height: 1.4;
+}
+
+/* main category (UTM / Kolej / SMKA) */
+.card > ul > li {
+    margin-bottom: 10px;
+}
+
+/* nested details (Course, Positions, Awards details) */
+.card ul ul {
+    margin-top: 4px;
+    padding-left: 18px;
+    list-style-type: circle;
+}
+
+.card ul ul li {
+    margin-bottom: 3px;
+    font-size: 0.95em;
+}
+
+/* ===== COURSE SWITCHER ===== */
+
+#courseSwitcher {
+    margin: 5px 0 20px; /* just under Back button */
+}
+
+/* buttons container */
+#courseButtons {
+    display: flex;
+    flex-direction: row;   /* ✅ horizontal */
+    gap: 10px;
+    flex-wrap: wrap;       /* wrap if screen small */
+}
+
+/* individual buttons */
+.course-btn {
+    padding: 6px 12px;
+    border: 1px solid #d63384;
+    background: white;
+    color: #d63384;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.course-btn:hover {
+    background: #ff69b4;
+    color: white;
+}
+
+/* PROFILE BUTTONS */
+.profile-buttons {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.profile-buttons button {
+    padding: 8px 12px;
+    border: none;
+    background: #d63384;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.profile-buttons button:hover {
+    background: #ff69b4;
+}
+

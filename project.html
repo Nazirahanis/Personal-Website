@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Projects</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav style="display:block">My Website</nav>
+
+<!-- PROJECT LIST PAGE -->
+<div style="max-width:900px; margin:100px auto; padding:20px;">
+
+    <div class="back" onclick="backHome()">← Back</div>
+
+    <div class="card">
+        <h2>My Projects</h2>
+
+        <ul class="list">
+            <li onclick="openProject('portfolio')">
+                E-Portfolio Website
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+function openProject(projectKey) {
+    window.location.href = "projectdetail.html?project=" + projectKey;
+}
+
+function backHome() {
+    // ✅ force homepage, skip landing
+    localStorage.setItem("skipLanding", "yes");
+    window.location.href = "eportfolio.html";
+}
+</script>
+
+</body>
+</html>
