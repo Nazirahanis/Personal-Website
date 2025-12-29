@@ -13,7 +13,7 @@ const data = {
 
     pt1: {
         title: "Programming Technique I",
-        desc: "Introduction to C++ programming.",
+        desc: "Introduce studnets to fundamental programming using C++ as the programming language to solve a problem.",
         reflection: "I learned programming fundamentals.",
         items: [
             { type: "Assignment", title: "Assignment 1 – Basics", description: "Variables and I/O." },
@@ -146,3 +146,4 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
