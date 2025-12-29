@@ -13,8 +13,8 @@ const data = {
 
     pt1: {
         title: "Programming Technique I",
-        desc: "Introduce studnets to fundamental programming using C++ as the programming language to solve a problem.",
-        reflection: "I learned programming fundamentals.",
+        desc: "Tis course introduces students to fundamental programming using C++ as the programming language to solve a problem.",
+        reflection: "This course taught me about fundamental theory and practice on problem solving techniques by using coding and programming, C++. From this course, I learned to solve a problem using programming approach by developing structured C++ programs. I need to know the problem and plan the solution. With this, i could apply systematic problem-solving methods to analyze and address programming challenges.",
         items: [
             { type: "Assignment", title: "Assignment 1 – Basics", description: "Variables and I/O." },
             { type: "Lab", title: "Lab 1 – Control", description: "Loops and conditionals." }
@@ -146,4 +146,5 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
