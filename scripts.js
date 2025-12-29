@@ -121,7 +121,7 @@ function openDetail(subjectKey, index) {
 
     const item = data[subjectKey].items[index];
     detailTitle.innerText = item.title;
-    detailDesc.innerHTML = item.description;
+    detailDesc.innerText = item.description;
 }
 
 // ===== BACK BUTTONS =====
@@ -158,6 +158,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
