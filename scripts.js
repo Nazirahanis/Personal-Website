@@ -14,7 +14,7 @@ const data = {
     pt1: {
         title: "Programming Technique I",
         desc: "Tis course introduces students to fundamental programming using C++ as the programming language to solve a problem.",
-        reflection: "This course taught me about fundamental theory and practice on problem solving techniques by using coding and programming, C++. From this course, I learned to solve a problem using programming approach by developing structured C++ programs. I need to know the problem and plan the solution. With this, i could apply systematic problem-solving methods to analyze and address programming challenges.",
+        reflection: `This course taught me about fundamental theory and practice on problem solving techniques by using coding and programming, C++. From this course, I learned to solve a problem using programming approach by developing structured C++ programs. I need to know the problem and plan the solution. With this, i could apply systematic problem-solving methods to analyze and address programming challenges.`,
         items: [
             { type: "Assignment", title: "Assignment 1 – Basics", description: "Variables and I/O." },
             { type: "Lab", title: "Lab 1 – Control", description: "Loops and conditionals." }
@@ -26,7 +26,13 @@ const data = {
         desc: "Information systems and digital technology.",
         reflection: "I learned how IT supports organizations.",
        items: [
-            { title: "Assignment 1 : UTM Open Day", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
+            { title: "Assignment 1: UTM Open Day", description: `UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
+
+Objective
+To gain deeper and better knowlegde about UTM Digital's structure, function and distribution for UTM.
+To enhance teamwork, problem-solving skills and communication between the team members.
+To produce an asignement video.`},
+													{ title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
         ]
     },
 
