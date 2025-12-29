@@ -26,11 +26,9 @@ const data = {
         desc: "Information systems and digital technology.",
         reflection: "I learned how IT supports organizations.",
        items: [
-            { type: "Lab", title: "Logic Gate Lab", description: `
-<p>
-In this course, I gained knowledge about the principles and applications
-of discrete structures in computer science.
-</p>
+            { type: "Lab", title: "Logic Gate Lab", description: ` 
+            <p> In this course, I gained knowledge about the principles and applications of discrete structures in computer science.
+            </p>
 
 <p>
 It helped me understand how mathematical concepts are applied to
@@ -160,6 +158,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
