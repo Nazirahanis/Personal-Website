@@ -7,7 +7,7 @@ const data = {
         items: [
             { type: "Assignment", title: "Assignment 1 : Logic", description: "Propositions and truth tables." },
             { type: "Assignment", title: "Assignment 2 : Relations", description: "Functions and equivalence relations." },
-            { type: "Assignment", title: "Assignment 3: ", description: "Graph traversal techniques." }
+            { type: "Assignment 3", title: "Assignment 3: ", description: "Graph traversal techniques." }
         ]
     },
 
@@ -146,6 +146,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
