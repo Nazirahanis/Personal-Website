@@ -25,8 +25,68 @@ const data = {
         title: "Technology & Information System",
         desc: "Information systems and digital technology.",
         reflection: "I learned how IT supports organizations.",
-        items: [
-            { type: "Project", title: "Industry Talk Poster", description: "Poster design and analysis." }
+       items: [
+        {
+            type: "Assignment",
+            title: "Assignment 1 : UTM Digital Open Day",
+            description: `
+<h2>Assignment 1 : UTM Digital Open Day</h2>
+
+<p><strong>🗓️ Date:</strong> 28 & 29 October 2025<br>
+<strong>🕐 Time:</strong> 2.15 pm – 4.30 pm<br>
+<strong>📍 Venue:</strong> UTM Digital</p>
+
+<table border="1" cellpadding="8">
+<tr>
+<th>Members</th>
+<th>Task</th>
+</tr>
+<tr>
+<td>Nur Nazirah Hanis</td>
+<td>Conduct interview, photo & video recording</td>
+</tr>
+<tr>
+<td>Nur Hanani Sazwani</td>
+<td>Conduct interview, footage & photo recording</td>
+</tr>
+<tr>
+<td>Humayra'</td>
+<td>Edits and compiles the final video, footage & photo recording</td>
+</tr>
+<tr>
+<td>Ng Xuan Yee</td>
+<td>Collects and organizes information, footage & photo recording</td>
+</tr>
+</table>
+
+<h3>❓ Objective</h3>
+<ul>
+<li>To gain deeper knowledge about UTM Digital’s structure and function</li>
+<li>To enhance teamwork, problem-solving, and communication skills</li>
+<li>To produce an assignment video</li>
+</ul>
+
+<h3>🔭 Overview of the Programme</h3>
+<p>
+UTM Digital Open Day 2025 is a yearly event attended by students interested
+in UTM’s technology and digital transformation. Activities included talks,
+demonstrations, showcases, and discussions.
+</p>
+
+<h3>🔑 Key Insights</h3>
+<ul>
+<li><strong>Information System</strong><br>
+🎤 Speaker: Hj. Madradzi Bin Muhamad (DDI)</li>
+
+<li><strong>Digital Infrastructure</strong><br>
+🎤 Speaker: Mohd Hafiz Muhammad Nasir (DDA)</li>
+
+<li><strong>Data Engineering</strong><br>
+🎤 Speaker: Zahari Supene (DDA)</li>
+
+<li><strong>System Development</strong><br>
+🎤 Speaker: Helmee Bin Yaacob</li>
+</ul>
         ]
     },
 
@@ -109,7 +169,7 @@ function openDetail(subjectKey, index) {
 
     const item = data[subjectKey].items[index];
     detailTitle.innerText = item.title;
-    detailDesc.innerText = item.description;
+    detailDesc.innerHTML = item.description;
 }
 
 // ===== BACK BUTTONS =====
@@ -146,5 +206,6 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
