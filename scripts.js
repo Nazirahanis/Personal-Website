@@ -90,7 +90,7 @@ function openSubject(key) {
     const s = data[key];
 
     subjectTitle.innerText = s.title;
-    subjectDesc.innerText = s.desc;
+    subjectDesc.innerHTML = s.desc;
     courseReflection.innerText = s.reflection;
 
     itemList.innerHTML = s.items.map((item, index) =>
