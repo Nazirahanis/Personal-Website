@@ -28,10 +28,12 @@ const data = {
        items: [
             { title: "Assignment 1: UTM Open Day", description: `UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
 
-Objective
-To gain deeper and better knowlegde about UTM Digital's structure, function and distribution for UTM.
-To enhance teamwork, problem-solving skills and communication between the team members.
-To produce an asignement video.`},
+<b>Objective</b>
+<ul>
+<li>To gain deeper and better knowlegde about UTM Digital's structure, function and distribution for UTM.</li>
+<li>To enhance teamwork, problem-solving skills and communication between the team members.</li>
+<li>To produce an asignement video.</li>
+</ul>`},
 													{ title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
         ]
     },
