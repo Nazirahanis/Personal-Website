@@ -26,7 +26,7 @@ const data = {
         desc: "Information systems and digital technology.",
         reflection: "I learned how IT supports organizations.",
        items: [
-            { type: "Assignment", title: "Assignment 1 : UTM Open Day", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
+            { title: "Assignment 1 : UTM Open Day", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
         ]
     },
 
@@ -146,6 +146,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
