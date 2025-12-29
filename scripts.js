@@ -86,7 +86,7 @@ demonstrations, showcases, and discussions.
 
 <li><strong>System Development</strong><br>
 🎤 Speaker: Helmee Bin Yaacob</li>
-</ul>
+</ul>`}
         ]
     },
 
@@ -169,7 +169,7 @@ function openDetail(subjectKey, index) {
 
     const item = data[subjectKey].items[index];
     detailTitle.innerText = item.title;
-    detailDesc.innerText = item.description;
+    detailDesc.innerHTML = item.description;
 }
 
 // ===== BACK BUTTONS =====
