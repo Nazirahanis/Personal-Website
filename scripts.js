@@ -26,7 +26,21 @@ const data = {
         desc: "Information systems and digital technology.",
         reflection: "I learned how IT supports organizations.",
        items: [
-            { type: "Lab", title: "Logic Gate Lab", description: "Built circuits using gates." }
+            { type: "Lab", title: "Logic Gate Lab", description: `
+<p>
+In this course, I gained knowledge about the principles and applications
+of discrete structures in computer science.
+</p>
+
+<p>
+It helped me understand how mathematical concepts are applied to
+real-world computing problems such as algorithms and data structures.
+</p>
+
+<p>
+I also learned logical thinking and proof techniques, which improved my
+ability to analyze problems step by step and justify solutions clearly.
+</p>` }
         ]
     },
 
@@ -146,6 +160,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
