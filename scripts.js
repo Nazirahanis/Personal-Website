@@ -98,9 +98,9 @@ Industry Talk 1 provided an opportunity for students to gain real exposure to ho
 
 <h3>📝 Task</h3>
 To create an poster based on the talk. <br>
-<a href="files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a><br>
+<a href="Personal-Website/files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a><br>
 <br>
-<a href="image/Group.10.Industry.Talk.Poster.png" target="_blank">Poster</a>
+<a href="Personal-Website/image/Group.10.Industry.Talk.Poster.png" target="_blank">Poster</a>
 
 
 <h3>📖 Reflection</h3> 
@@ -339,6 +339,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
