@@ -117,7 +117,7 @@ function openDetail(subjectKey, index) {
 
     const item = data[subjectKey].items[index];
     detailTitle.innerText = item.title;
-    detailDesc.innerText = item.description;
+    detailDesc.innerHTML = item.description;
 }
 
 // ===== BACK BUTTONS =====
