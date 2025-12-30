@@ -23,18 +23,18 @@ const data = {
 
     tis: {
         title: "Technology & Information System",
-        desc: "Information systems and digital technology.",
-        reflection: "I learned how IT supports organizations.",
+        desc: "This course introduces students to fundamental conceps of technology and IT.",
+        reflection: "This course is a Work-Based Learning (WBL) learning mode where it doesn't have final exam but rely on quizzes, tests, assignments and projects. The theories I learned in this course is crucial that it would be applied for hands-on activities, final year projects (FYP) and real-working application. This course also held industry talks which helped me understand the job roles and markets, required skills and opportunities that are not covered in textbooks. Overall, this course improved my understanding in IT and technology and also inspired me to focus on enhancing knowlegdes and skill-building, along with real-world application.",
        items: [
             { title: "Assignment 1: UTM Open Day", description: `UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
-
+<br>
 <b>Objective</b>
 <ul>
 <li>To gain deeper and better knowlegde about UTM Digital's structure, function and distribution for UTM.</li>
 <li>To enhance teamwork, problem-solving skills and communication between the team members.</li>
 <li>To produce an asignement video.</li>
 </ul>`},
-													{ title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
+			{ title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
         ]
     },
 
@@ -154,6 +154,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
