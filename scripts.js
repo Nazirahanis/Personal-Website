@@ -98,7 +98,7 @@ Industry Talk 1 provided an opportunity for students to gain real exposure to ho
 
 <h3>📝 Task</h3>
 To create an poster based on the talk. <br>
-<a href="files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 3.docx</a> <br>
+<a href="files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a> <br>
 <a href="files/Group 10 Industry Talk Poster.pdf" target="_blank">Poster</a>
 
 
@@ -138,8 +138,8 @@ From this talk, I realised that ICT is not only to have the knowledges and the s
 </ul>
 
 <h3>📝 Task</h3>
-To create an academic writing based on the talk that not exceed 3 pages.
-<a href="files/Assignment.3.Report.System.Development.docx" target="_blank">Assignment 3.docx</a>
+To create an academic writing based on the talk that not exceed 3 pages. <br>
+<a href="files/Assignment.3.Report.System.Development.docx" target="_blank">Assignment 3.docx</a> <br>
 <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report</a>
 
 <h3>📖 Reflection</h3>
@@ -338,6 +338,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
