@@ -104,7 +104,11 @@ From this talk, I realised that ICT is not only to have the knowledges and the s
 <li>Provide follow-up material such as slide after the session.</li>
 <li>More time for Q&A session to allow students ask and learn directly about the industry.</li>
 <li>More interactive session so students won't get bored and sleepy.</li>
-</ul>`
+</ul>
+
+<h3>Task</h3>
+<a href="https://github.com/user-attachments/files/24376625/Assignment.1.Poster.PPG.docxf" target="_blank">📄 View Report (PDF)</a>
+`
 			},
 		   { type: "Assignment", title: "Assignment 3 : Project Management and System Development Talk", description: 
 `
@@ -329,6 +333,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
