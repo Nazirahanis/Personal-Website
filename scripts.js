@@ -97,8 +97,11 @@ Industry Talk 1 provided an opportunity for students to gain real exposure to ho
 </ul>
 
 <h3>📝 Task</h3>
-To create an poster based on the talk.
-<a href="files/files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a>
+To create an poster based on the talk. <br>
+<a href="files/files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a><br>
+<br>
+<a href="/image/Group.10.Industry.Talk.Poster.png" target="_blank">Poster</a>
+
 
 <h3>📖 Reflection</h3> 
 From this talk, I realised that ICT is not only to have the knowledges and the skills but to solve a problem and make sure that the company can work and maintain efficiently, securely and competitively. It motivated me to enhance my abilities so that I can give benefits to world. 
@@ -336,6 +339,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
