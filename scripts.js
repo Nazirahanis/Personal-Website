@@ -131,7 +131,40 @@ UTMDigital Open Day 2025 is yearly event, attended by students who were interest
 <h3>🛠️ Suggestion of Improvement</h3>
 <ul>
 <li>Provide digital map of the booths location so students can plan their visit.</li>
-</ul>`	
+</ul>
+
+<h3>Task</h3>
+To create an poster based on the talk. <br>
+<br>
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <tr>
+    <th>Members</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td>Nur Nazirah Hanis</td>
+    <td>Conduct interview, photo & video recording</td>
+  </tr>
+  <tr>
+    <td>Nur Hanani Sazwani</td>
+    <td>Conduct interview, footage & photo recording</td>
+  </tr>
+  <tr>
+    <td>Humayra'</td>
+    <td>Edits and compiles the final video, footage & photo recording</td>
+  </tr>
+  <tr>
+    <td>Ng Xuan Yee</td>
+    <td>Collects and organizes information, footage & photo recording</td>
+  </tr>
+</table>
+<br>
+<ul>
+<li> <a href="https://youtu.be/rvWaaMnH9rw?si=SC6bgHL7aO8Jczkq" target="_blank">Video</a> </li> <br>
+</ul>
+
+
+`	
 			},
 			{ type: "Assignment", title: "Assignment 2: PPG Indutry Talk 1", description: 
 `
@@ -217,6 +250,7 @@ To create an academic writing based on the talk that not exceed 3 pages. <br>
 <ul>
 <li> <a href="files/Assignment.3.Report.System.Development.docx" target="_blank">Assignment 3.docx</a> </li> <br>
 <li> <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report</a> </li> <br>
+</ul>
 
 <h3>📖 Reflection</h3>
 To succeed in computer science, strong fundamentals, experience and skills are crucial. Classroom learning and group projects help to develop technical skills. In addition, participating in extracurricular activities enhances soft skills such as communication. Lastly, I should improve knowledge by exploring new tools such as using AI to complete tasks more efficiently.
@@ -302,7 +336,7 @@ It was a really insightful session, and I learned a lot about the skills and min
         title: "Digital Logic",
         desc: 
 			`
-		📚 <b>Lecturer:/b> Mr. Ahamd Fariz bin Ali<br>
+		📚 <b>Lecturer:</b> Mr. Ahamd Fariz bin Ali<br>
 		🏫 <b>Section: 02</b>  <br>
 		🕐 <b>Credit Hours:</b> 3 hours <br>
 
@@ -417,7 +451,7 @@ Topik 11: Institusi Sosial Dalam Pembudayaan Integriti dan Anti-Rasuah
     <td>Nur Hanani Sazwani</td>
     <td>Side role</td>
   </tr>
-</table>|
+</table>
 
 <h3>Storyline</h3>
 Farah was an athlete and also a student. One day, her coach asked her to join a marathon competition and wished her to win. 
@@ -530,6 +564,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
