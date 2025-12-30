@@ -107,7 +107,7 @@ From this talk, I realised that ICT is not only to have the knowledges and the s
 </ul>
 
 <h3>Task</h3>
-<a href="https://github.com/user-attachments/files/24376625/Assignment.1.Poster.PPG.docxf" target="_blank">📄 View Report (PDF)</a>
+<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report (PDF)</a>
 `
 			},
 		   { type: "Assignment", title: "Assignment 3 : Project Management and System Development Talk", description: 
@@ -333,6 +333,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
