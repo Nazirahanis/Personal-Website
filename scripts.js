@@ -38,6 +38,7 @@ const data = {
 <h3>🔭Overview of the Programme</h3>
 UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
 
+<br>
 <b>🔑 Key Insights</b>
 <ul>
 <li>Information System <br>
@@ -58,7 +59,53 @@ UTMDigital Open Day 2025 is yearly event, attended by students who were interest
 <li>Provide digital map of the booths location so students can plan their visit.</li>
 </ul>`	
 			},
-			{ type: "Assignment", title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
+			{ type: "Assignment", title: "Assignment 2: PPG Indutry Talk 1", description: 
+`
+<b>Date:</b> 20 November 2025  <br>
+<b>Time:</b> 2:30pm - 3:35pm   <br>
+<b>Venue:</b> Hyflex Classroom, N28A <br>
+
+  
+<h3>❓Objective</h3> 
+<ul>
+<li>To gain deeper knowledge about PPG backgroup, work and structure.</li>
+<li>To give exposure to the students about real work life.</li>
+<li>To enhance students' knowledge in IT and technology.</li>
+<li>To produce a group poster of the talk.</li>
+</ul>
+ <br>
+
+<h3>🔭 Overview of The Talk</h3>  
+Industry Talk 1 provided an opportunity for students to gain real exposure to how major IT divisions operate within a global organisation. It also showcased how different IT departments work together to keep a global business running. Through discussions on PPG operations, data analytics, cloud systems and SAP, the speakers shared practical examples from the industry. The talk was held to broaden our understanding of digital transformation and inspired us to build relevant skills for the future.
+
+
+<br>
+
+<h4>🔑 Key insights :</h4> <br>  
+<ul>
+<li>Introduction to PPG <br>
+🎤 Speaker : Ai Ling Ooi, APAC IT LEAD of PPG</li>
+
+<li>Data Analytics <br>
+🎤 Speaker :  Derrick Tan Horng Shi, Data Analytics Manager of PPG</li>
+
+<li>Global Intrastructure : SPEAKER : <br>
+🎤 Speaker : Vijaykumar Dhandapani, Cloud Architecture Lead of PPG</li>
+
+<li>Introduction to SAP : <br>
+🎤 Speaker : Patrick Thong, SAP Operations DTR Lead of PPG</li>
+</ul>
+
+<h3>📖 Reflection</h3> 
+From this talk, I realised that ICT is not only to have the knowledges and the skills but to solve a problem and make sure that the company can work and maintain efficiently, securely and competitively. It motivated me to enhance my abilities so that I can give benefits to world. 
+
+<h3>🛠️ Suggestion of Improvement</h3> 
+<ul>
+<li>Provide follow-up material such as slide after the session.</li>
+<li>More time for Q&A session to allow students ask and learn directly about the industry.</li>
+<li>More interactive session so students won't get bored and sleepy.</li>
+</ul>`
+			}
         ]
     },
 
@@ -178,6 +225,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
