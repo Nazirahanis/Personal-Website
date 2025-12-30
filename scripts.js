@@ -2,7 +2,7 @@
 const data = {
     ds: {
         title: "Discrete Structure",
-        desc: `This course introduces students to the principles and applications of discrete structure in the field of computer science."
+        desc: `This course introduces students to the principles and applications of discrete structure in the field of computer science.
 		📚 <b>Lecturer:</b> Dr. Noorfa Haszlinna binti Mustaffa  <br>
 		🏫 <b>Section:</b> 02  <br>
 		🕐 <b>Credit Hours:</b> 3 hours <br>
@@ -375,7 +375,7 @@ Chapter 9: Shift Registers <br>
 			2. To expose student with a complete cycle process of a combinatorial circuit design and simulate with Deeds Simulator <br>
 			<br>
 			<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:4078be2e-ebe1-4c8c-9e80-e48b43e14149">📄 View Question</a> <br>
-			<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:257d54d6-0e4e-4e9d-b825-df5ba692aafe)">📄 View Question</a> <br> `
+			<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:257d54d6-0e4e-4e9d-b825-df5ba692aafe">📄 View Question</a> <br> `
 			},
         ]
     },
@@ -460,7 +460,7 @@ But, her coach ensured her to keep joining the marathon. Although Farah relucted
 And..... Her coach already had a plan to make sure Farah would win. 
 
 <h3>Video</h3>
-<a href="ttps://drive.google.com/file/d/1l0UbthBbfantOGQix3AvlsGcCmrT_xBS/view?usp=drive_link">📄 View Video</a> <br>
+<a href="https://drive.google.com/file/d/1l0UbthBbfantOGQix3AvlsGcCmrT_xBS/view?usp=drive_link">📄 View Video</a> <br>
 
 `}
         ]
@@ -564,6 +564,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
