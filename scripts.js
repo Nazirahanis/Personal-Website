@@ -370,18 +370,52 @@ Topik 11: Institusi Sosial Dalam Pembudayaan Integriti dan Anti-Rasuah
 		<b>Task :</b> To create a video about integrity and anti-corruption related to our selected topic. <br>
 <br>
 
-|Members|Task|
-|------|--------|
-|Nurul Izzati Liyana | Main role - Penjaga Lalu Lintas, video editor|
-|Fariza Adlina | Main role - Pelari 2, write minute meeting|
-|Qistina Batrisyia| Main role - Police, video record|
-|Farah Adilah | Main character - Pelari 1|
-|Balqis Batrisya | Main role - Penganjur|
-|Mursyidah | Main role - Coach|
-|Nur Nazirah Hanis | Side role, video editor|
-|Najla Auni | Side role, write minute meeting|
-|Ain | Side role|
-|Nur Hanani Sazwani | Side role|
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse:collapse; width:100%;">
+  <tr style="background:#f2f2f2;">
+    <th>Members</th>
+    <th>Task</th>
+  </tr>
+  <tr>
+    <td>Nurul Izzati Liyana</td>
+    <td>Main role – Penjaga Lalu Lintas, video editor</td>
+  </tr>
+  <tr>
+    <td>Fariza Adlina</td>
+    <td>Main role – Pelari 2, write minute meeting</td>
+  </tr>
+  <tr>
+    <td>Qistina Batrisyia</td>
+    <td>Main role – Police, video record</td>
+  </tr>
+  <tr>
+    <td>Farah Adilah</td>
+    <td>Main character – Pelari 1</td>
+  </tr>
+  <tr>
+    <td>Balqis Batrisya</td>
+    <td>Main role – Penganjur</td>
+  </tr>
+  <tr>
+    <td>Mursyidah</td>
+    <td>Main role – Coach</td>
+  </tr>
+  <tr>
+    <td>Nur Nazirah Hanis</td>
+    <td>Side role, video editor</td>
+  </tr>
+  <tr>
+    <td>Najla Auni</td>
+    <td>Side role, write minute meeting</td>
+  </tr>
+  <tr>
+    <td>Ain</td>
+    <td>Side role</td>
+  </tr>
+  <tr>
+    <td>Nur Hanani Sazwani</td>
+    <td>Side role</td>
+  </tr>
+</table>|
 
 <h3>## Storyline</h3>
 Farah was an athlete and also a student. One day, her coach asked her to join a marathon competition and wished her to win. 
@@ -494,6 +528,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
