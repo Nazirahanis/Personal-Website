@@ -26,15 +26,39 @@ const data = {
         desc: "This course introduces students to fundamental conceps of technology and IT.",
         reflection: "This course is a Work-Based Learning (WBL) learning mode where it doesn't have final exam but rely on quizzes, tests, assignments and projects. The theories I learned in this course is crucial that it would be applied for hands-on activities, final year projects (FYP) and real-working application. This course also held industry talks which helped me understand the job roles and markets, required skills and opportunities that are not covered in textbooks. Overall, this course improved my understanding in IT and technology and also inspired me to focus on enhancing knowlegdes and skill-building, along with real-world application.",
        items: [
-            { title: "Assignment 1: UTM Open Day", description: `UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
+            { type: "Assignment", title: "Assignment 1: UTM Open Day", description: `UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
 <br>
-<b>Objective</b>
+<br> <b>Objective</b>
 <ul>
 <li>To gain deeper and better knowlegde about UTM Digital's structure, function and distribution for UTM.</li>
 <li>To enhance teamwork, problem-solving skills and communication between the team members.</li>
 <li>To produce an asignement video.</li>
-</ul>`},
-			{ title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
+</ul>
+
+## 🔭Overview of the Programme
+UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
+
+<b>🔑 Key Insights</b>
+<ul>
+<li>Information System <br>
+🎤 Speaker : Hj. Madradzi Bin Muhamad, the Division of Digital Innovation (DDI) </li>
+
+<li>Digital Infrastructure <br>
+🎤 Speaker : Mohd Hafiz Muhammad Nasir, the Division of Digital Architecture (DDA)</li>
+
+<li>Data Engineering <br>
+🎤 Speaker : Zahari Supene of DDA<li>
+
+<li>System Development <br>
+🎤 Speaker : Helmee Bin Yaacob</li>
+</ul>
+
+<b>🛠️ Suggestion of Improvement</b>
+<ul>
+<li>Provide digital map of the booths location so students can plan their visit.</li>
+</ul>`	
+			},
+			{ type: "Assignment", title: "Assignment 2: PPG Indutry Talk 1", description: "UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM."}
         ]
     },
 
@@ -154,6 +178,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
