@@ -140,7 +140,7 @@ From this talk, I realised that ICT is not only to have the knowledges and the s
 <h3>📝 Task</h3>
 To create an academic writing based on the talk that not exceed 3 pages. <br>
 <a href="files/Assignment.3.Report.System.Development.docx" target="_blank">Assignment 3.docx</a> <br>
-<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report</a>
+<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report</a> <br>
 
 <h3>📖 Reflection</h3>
 To succeed in computer science, strong fundamentals, experience and skills are crucial. Classroom learning and group projects help to develop technical skills. In addition, participating in extracurricular activities enhances soft skills such as communication. Lastly, I should improve knowledge by exploring new tools such as using AI to complete tasks more efficiently.
@@ -338,6 +338,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
