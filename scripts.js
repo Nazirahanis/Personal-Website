@@ -28,14 +28,14 @@ const data = {
        items: [
             { type: "Assignment", title: "Assignment 1: UTM Open Day", description: `UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
 <br>
-<br> <b>Objective</b>
+<br><h3>Objective</h3>
 <ul>
 <li>To gain deeper and better knowlegde about UTM Digital's structure, function and distribution for UTM.</li>
 <li>To enhance teamwork, problem-solving skills and communication between the team members.</li>
 <li>To produce an asignement video.</li>
 </ul>
 
-## 🔭Overview of the Programme
+<h3>🔭Overview of the Programme</h3>
 UTMDigital Open Day 2025 is yearly event, attended by students who were interested in in UTM's technology and digital transformation. The activities includedtalks, demonstrations, showcases and discussions on how digital innovation was used at UTM.
 
 <b>🔑 Key Insights</b>
@@ -47,13 +47,13 @@ UTMDigital Open Day 2025 is yearly event, attended by students who were interest
 🎤 Speaker : Mohd Hafiz Muhammad Nasir, the Division of Digital Architecture (DDA)</li>
 
 <li>Data Engineering <br>
-🎤 Speaker : Zahari Supene of DDA<li>
+🎤 Speaker : Zahari Supene of DDA</li>
 
 <li>System Development <br>
 🎤 Speaker : Helmee Bin Yaacob</li>
 </ul>
 
-<b>🛠️ Suggestion of Improvement</b>
+<h3>🛠️ Suggestion of Improvement</h3>
 <ul>
 <li>Provide digital map of the booths location so students can plan their visit.</li>
 </ul>`	
@@ -178,6 +178,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
