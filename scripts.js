@@ -42,8 +42,56 @@ Chapter 5: Finite Automata  <br>`,
         desc: "Tis course introduces students to fundamental programming using C++ as the programming language to solve a problem.",
         reflection: `This course taught me about fundamental theory and practice on problem solving techniques by using coding and programming, C++. From this course, I learned to solve a problem using programming approach by developing structured C++ programs. I need to know the problem and plan the solution. With this, i could apply systematic problem-solving methods to analyze and address programming challenges.`,
         items: [
-            { type: "Assignment", title: "Assignment 1 – Basics", description: "Variables and I/O." },
-            { type: "Lab", title: "Lab 1 – Control", description: "Loops and conditionals." }
+            { type: "Assignment", title: "Assignment 1", description:
+				
+				`
+				<b>Chapter 01:</b> Programming Solving-Problem <br>
+				This task required me to use tools like draw.io or Lucid Chart to construct a flowchart.  This task was assigned pairing. <br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:b18116b6-3e0d-4437-bd96-3bd6d9d7b41f" target="_blank">📄 View Question</a> <br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:148669e4-21fc-4808-9af3-41009776c799" target="_blank">📄 View Solution</a> <br>` },
+			
+            { type: "Assignment", title: "Assignment 2", description: 
+				`
+				<b>Chapter 04:</b>Function <br>
+				<b>Due Date:</b>29 December 2025 <br>
+				<b>Task:</b>Develop a Basal Metabolic Rate (BMR) Calculator to estimate a basal metabolic rate: the amount of energy expended while at rest in a neutrally temperate environment, and in a post-absorptive state (meaning that the digestive system is inactive, which requires about 12 hours of fasting). <br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:6e0d9f0f-fe30-4732-bb3d-f36f1c3b0af7" target="_blank">📄 View Question</a> <br>
+			` },
+			
+			{ type: "Assignment", title: "Assignment 3", description: 
+				`
+				<b>Chapter 05 & 06:</b>Array & Input and Output <br>
+				<b>Due Date:</b>4 January2026 <br>
+				<b>Task:</b>Write a C++ program that can assist the telematch committee to determine the winner for these events.<br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:52e2432d-45ab-4154-907a-1054824906cb" target="_blank">📄 View Question</a> <br>
+			` },
+
+			{ type: "Lab", title: "Lab Exercise 1", description: 
+				`
+				<b>Chapter 01 :</b>Programming Problem-Solving<br>
+				<b>Task:</b>Construct a flow chart that reads an integer number and then calculate the sum of its digits. After that, identify whether the sum of digits for the integer is a multiple of 3, 4, and/ or 5.<br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:02aa4f1c-1c24-409c-93ac-04b127c0d7b6" target="_blank">📄 View Question</a> <br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:76203ba9-6afc-45f6-bb54-56f5dc76ff3a" target="_blank">📄 View Solution</a> <br>
+			` },
+
+			{ type: "Lab", title: "Lab Exercise 2", description: 
+				`
+				<b>Chapter 02 & 03:</b>Elementary Programming & Control Structuresg<br>
+				<b>Task:</b>This task required to use C++ to create a code that has similar requirement to Lab Exercise 1.<br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:86694944-b3e3-41e1-895e-0d7a3862e30f">📄 View Question</a> <br>
+			` },
+			{ type: "Lab", title: "Lab Exercise 3", description: 
+				`
+				<b>Chapter 04:</b>Function<br>
+				<b>Task:</b>Write a complete C++ program that helps the Ministry of Health (MOH) to determine the status of a zone by calculating the number of active cases for COVID 19.<br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:ap:78cbc4dd-8331-4f43-8f2d-d9e052b25301">📄 View Question</a> <br>
+			` }
         ]
     },
 
@@ -364,6 +412,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
