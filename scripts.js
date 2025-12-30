@@ -105,7 +105,43 @@ From this talk, I realised that ICT is not only to have the knowledges and the s
 <li>More time for Q&A session to allow students ask and learn directly about the industry.</li>
 <li>More interactive session so students won't get bored and sleepy.</li>
 </ul>`
-			}
+			},
+		   { type: "Assignment", title: "Assignment 3 : Project Management and System Development Talk", description: 
+`
+<b>Date:</b> 18 December 2025 <br>
+<b>Time:</b> 2.00 pm - 4.00 pm <br>
+<b>Venue:</b> Hyflex Classroom, N28A
+
+<h3>❓ Objective</h3>
+<ul>
+<li>To give exposure about Project Management and System Development.</li>
+<li>To highlight the importance of project management and system development</li>
+<li>To create an academic writing report based on the talk.</li>
+</ul>
+
+<h3>🔭 Overview of The Talk</h3>
+🎤 **Speaker** : Ts. Hj. Abdul Alim bin Abdul Muttalib, the Head of Technology and Innovation at Serunai Commerce Sdn. Bhd.
+
+<h4>🔑 **Key Insight**</h4>
+<ul>
+<li>Speaker Experience</li>
+<li>What is Project Management and System Development?</li>
+<li>How the Project Management and System Development has been used in Computer Science Programmes</li>
+<li>Skills Required for Computer Science and Industry</li>
+</ul>
+
+
+<h3>📖 Reflection</h3>
+To succeed in computer science, strong fundamentals, experience and skills are crucial. Classroom learning and group projects help to develop technical skills. In addition, participating in extracurricular activities enhances soft skills such as communication. Lastly, I should improve knowledge by exploring new tools such as using AI to complete tasks more efficiently.
+
+<h3>🛠️ Suggestion of Improvements</h3>
+<ul>
+<li>Provide follow-up material such as slide after the session.</li>
+<li>More time for Q&A session to allow students ask and learn directly about the industry.</li>
+</ul>
+
+<h3>📝 Task</h3>
+To create an academic writing based on the talk that not exceed 3 pages.` },
         ]
     },
 
@@ -225,6 +261,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
