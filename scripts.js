@@ -3,8 +3,8 @@ const data = {
     ds: {
         title: "Discrete Structure",
         desc: `This course introduces students to the principles and applications of discrete structure in the field of computer science."
-		📚 <b>Lecturer:/b> Dr. Noorfa Haszlinna binti Mustaffa  <br>
-		🏫 <b>Section: 02</b>  <br>
+		📚 <b>Lecturer:</b> Dr. Noorfa Haszlinna binti Mustaffa  <br>
+		🏫 <b>Section:</b> 02  <br>
 		🕐 <b>Credit Hours:</b> 3 hours <br>
 
 <br> <h3>Topic</h3>
@@ -17,19 +17,19 @@ Chapter 5: Finite Automata  <br>`,
         items: [
             { type: "Assignment", title: "Assignment 1 : Set Theory & Logic", description: 
 				`
-				<b>Chapter 1:</b> Set Theory & Logic
+				<b>Chapter 1:</b> Set Theory & Logic <br>
 				<b>Due Date:</b> 22-30 October 2025 <br>
 				<br>
 				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:08e749ce-e2e7-4efe-b37f-6bf0fe9062cf" target="_blank">📄 View Question</a> <br>
 				` },
             { type: "Assignment", title: "Assignment 2 : Relation, Function & Recurrence", description: `
-				<b>Chapter 2:</b> Relation, Function & Recurrence
+				<b>Chapter 2:</b> Relation, Function & Recurrence <br>
 				<b>Due Date:</b> 17-26 November 2025 <br>
 				<br>
 				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:365cb04a-12ae-413d-8420-8a133361354f" target="_blank">📄 View Question</a> <br>
 				` },
             { type: "Assignment 3", title: "Assignment 3: Counting & Discrete Probability", description:`
-				<b>Chapter 3:</b> Counting & Discrete Probability 
+				<b>Chapter 3:</b> Counting & Discrete Probability <br>
 				<b>Due Date:</b> 4 January 2026 <br>
 				<br>
 				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:f8ce1f85-a3ac-48b8-8e02-c4bf88a93350" target="_blank">📄 View Question</a> <br>
@@ -155,7 +155,7 @@ Industry Talk 1 provided an opportunity for students to gain real exposure to ho
 
 <br>
 
-<h4>🔑 Key insights :</h4> <br>  
+<h4>🔑 Key insights :</h4>  
 <ul>
 <li>Introduction to PPG <br>
 🎤 Speaker : Ai Ling Ooi, APAC IT LEAD of PPG</li>
@@ -172,9 +172,10 @@ Industry Talk 1 provided an opportunity for students to gain real exposure to ho
 
 <h3>📝 Task</h3>
 To create an poster based on the talk. <br>
-<a href="files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a> <br>
-<a href="files/Group 10 Industry Talk Poster.pdf" target="_blank">Poster</a>
-
+<ul>
+<li> <a href="files/Assignment.1.Poster.PPG.docx" target="_blank">Assignment 1.docx</a> </li> <br>
+<li> <a href="files/Group 10 Industry Talk Poster.pdf" target="_blank">Poster</a> </li>
+</ul>
 
 <h3>📖 Reflection</h3> 
 From this talk, I realised that ICT is not only to have the knowledges and the skills but to solve a problem and make sure that the company can work and maintain efficiently, securely and competitively. It motivated me to enhance my abilities so that I can give benefits to world. 
@@ -213,8 +214,9 @@ From this talk, I realised that ICT is not only to have the knowledges and the s
 
 <h3>📝 Task</h3>
 To create an academic writing based on the talk that not exceed 3 pages. <br>
-<a href="files/Assignment.3.Report.System.Development.docx" target="_blank">Assignment 3.docx</a> <br>
-<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report</a> <br>
+<ul>
+<li> <a href="files/Assignment.3.Report.System.Development.docx" target="_blank">Assignment 3.docx</a> </li> <br>
+<li> <a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:93fc2eb7-4dfc-4e4c-9bdc-07ab203914cb" target="_blank">📄 View Report</a> </li> <br>
 
 <h3>📖 Reflection</h3>
 To succeed in computer science, strong fundamentals, experience and skills are crucial. Classroom learning and group projects help to develop technical skills. In addition, participating in extracurricular activities enhances soft skills such as communication. Lastly, I should improve knowledge by exploring new tools such as using AI to complete tasks more efficiently.
@@ -319,7 +321,7 @@ Chapter 9: Shift Registers <br>
         items: [
 			{ type: "Lab", title: "Lab 1 :  Combitional Logic Circuit", description: 
 			`
-			<b>Chapter:/b> Module 3 <br>
+			<b>Chapter:</b> Module 3 <br>
 			<br>
 			<h3>Objective</h3>
 			1. basic bread boarding and wiring techniques <br>
@@ -332,7 +334,7 @@ Chapter 9: Shift Registers <br>
 			
             { type: "Lab", title: "Lab 2 :  Combinational Digital Circuit Design Using Deeds", description: 
 			`
-			<b>Chapter:/b> Module 4 <br>
+			<b>Chapter:</b> Module 4 <br>
 			<br>
 			<h3>Objective</h3>
 			1. To expose student with producing digital logic circuit, generating truth table and Timing Diagram with Deeds Simulator <br>
@@ -347,8 +349,8 @@ Chapter 9: Shift Registers <br>
     kiar: {
         title: "Integrity & Anti-Corruption",
         desc: `
-		📚 <b>Lecturer:/b> Dr. Fahrul Irfan bin Ishak<br>
-		🏫 <b>Section: 14</b>  <br>
+		📚 <b>Lecturer:</b>Dr. Fahrul Irfan bin Ishak <br>
+		🏫 <b>Section:</b>14  <br>
 		🕐 <b>Credit Hours:</b> 2 hours <br>
 
 <br> <h3>Topic</h3>
@@ -417,7 +419,7 @@ Topik 11: Institusi Sosial Dalam Pembudayaan Integriti dan Anti-Rasuah
   </tr>
 </table>|
 
-<h3>## Storyline</h3>
+<h3>Storyline</h3>
 Farah was an athlete and also a student. One day, her coach asked her to join a marathon competition and wished her to win. 
 Farah didn't feel confident that she would win because she was busy with assignments and tests so might not be able to commit in trainings.
 But, her coach ensured her to keep joining the marathon. Although Farah relucted, but she proceed to participate in that marathon. <br>
@@ -528,6 +530,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
