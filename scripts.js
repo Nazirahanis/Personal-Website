@@ -298,19 +298,101 @@ It was a really insightful session, and I learned a lot about the skills and min
 
     dl: {
         title: "Digital Logic",
-        desc: "Boolean algebra and logic gates.",
-        reflection: "Improved understanding of digital circuits.",
+        desc: 
+			`
+		📚 <b>Lecturer:/b> Mr. Ahamd Fariz bin Ali<br>
+		🏫 <b>Section: 02</b>  <br>
+		🕐 <b>Credit Hours:</b> 3 hours <br>
+
+<br> <h3>Topic</h3>
+Chapter 1: Digital Logic Overview <br>
+Chapter 2: Number System and Codes <br>
+Chapter 3: Logic Gates: Overview <br>
+Chapter 4: Boolean Algebra and Logic Simplification <br>
+Chapter 5: Combinational Logic Circuit <br>
+Chapter 6: Functions of Combinational Logic <br>
+Chapter 7: Latched and Flip-Flops <br>
+Chapter 8: Counters <br>
+Chapter 9: Shift Registers <br>
+` ,
+        reflection: "This course introduced me to the principles of digital electronics as the basis for microprocessor-based systems in computers, robots, automobiles and industrial control applications. The teaching and learning are carried out through lectures and hands-on labs with Deeds Software. These helps me to emphasize problem-solving and practical application to enhance solutions for practical problems.",
         items: [
-            { type: "Lab", title: "Logic Gate Lab", description: "Built circuits using gates." }
+			{ type: "Lab", title: "Lab 1 :  Combitional Logic Circuit", description: 
+			`
+			<b>Chapter:/b> Module 3 <br>
+			<br>
+			<h3>Objective</h3>
+			1. basic bread boarding and wiring techniques <br>
+			2. the use of input switches and output LEDs in generating truth tables for a combinational logic circuit <br>
+			3. to verify the characteristic of the basic gates <br>
+			<br>
+			<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:57436204-dcb3-45cc-833c-221bc060a314">📄 View Question</a> <br>
+			`
+			},
+			
+            { type: "Lab", title: "Lab 2 :  Combinational Digital Circuit Design Using Deeds", description: 
+			`
+			<b>Chapter:/b> Module 4 <br>
+			<br>
+			<h3>Objective</h3>
+			1. To expose student with producing digital logic circuit, generating truth table and Timing Diagram with Deeds Simulator <br>
+			2. To expose student with a complete cycle process of a combinatorial circuit design and simulate with Deeds Simulator <br>
+			<br>
+			<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:4078be2e-ebe1-4c8c-9e80-e48b43e14149">📄 View Question</a> <br>
+			<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:257d54d6-0e4e-4e9d-b825-df5ba692aafe)">📄 View Question</a> <br> `
+			},
         ]
     },
 
     kiar: {
         title: "Integrity & Anti-Corruption",
-        desc: "Ethics and integrity in society.",
-        reflection: "Learned about moral responsibility.",
+        desc: `
+		📚 <b>Lecturer:/b> Dr. Fahrul Irfan bin Ishak<br>
+		🏫 <b>Section: 14</b>  <br>
+		🕐 <b>Credit Hours:</b> 2 hours <br>
+
+<br> <h3>Topic</h3>
+Topik 1: Konsep dan Kepentingan Nilai Dalam Kehidupan <br>
+Topik 2: Nilai Dalaman Dengan Pembentangan Jati Diri Dalam Menangani Rasuah <br>
+Topik 3: Integriti Teras Kesejahteraan <br>
+Topik 4: Rasuah Suatu Jenayah Serius <br>
+Topik 5: Agensi Pencegahan Rasuah dan Pemerkasaan Integriti <br>
+Topik 6: Rasuah Berdasarkan Akta SPRM 2009 <br>
+Topik 7: Liabiliti Korporat <br>
+Topik 8: Jenayah Kolar Putih <br>
+Topik 9: Punca, Simptom dan Kesan Rasuah <br>
+Topik 10: Laporkan Rasuah, Langkah Pencegahan dan Inisiatif Kerajaan <br>
+Topik 11: Institusi Sosial Dalam Pembudayaan Integriti dan Anti-Rasuah
+` ,
+        reflection: "In this course, I learned about the ethics, honesty and integrity that shoule be applied in both personal and professional life. I discovered about corruption, how it affects society and people in charges to settle the corruption cases in Malaysia. This course taught me that success is not just about knowledge or skills but also strong moral values and ethical principles in everything we do..",
         items: [
-            { type: "Project", title: "Integrity Video", description: "Awareness video project." }
+            { type: "Video", title: "Keadikan Perjuangan", description:`
+		<b>Task :</b> To create a video about integrity and anti-corruption related to our selected topic. <br>
+<br>
+
+|Members|Task|
+|------|--------|
+|Nurul Izzati Liyana | Main role - Penjaga Lalu Lintas, video editor|
+|Fariza Adlina | Main role - Pelari 2, write minute meeting|
+|Qistina Batrisyia| Main role - Police, video record|
+|Farah Adilah | Main character - Pelari 1|
+|Balqis Batrisya | Main role - Penganjur|
+|Mursyidah | Main role - Coach|
+|Nur Nazirah Hanis | Side role, video editor|
+|Najla Auni | Side role, write minute meeting|
+|Ain | Side role|
+|Nur Hanani Sazwani | Side role|
+
+<h3>## Storyline</h3>
+Farah was an athlete and also a student. One day, her coach asked her to join a marathon competition and wished her to win. 
+Farah didn't feel confident that she would win because she was busy with assignments and tests so might not be able to commit in trainings.
+But, her coach ensured her to keep joining the marathon. Although Farah relucted, but she proceed to participate in that marathon. <br>
+And..... Her coach already had a plan to make sure Farah would win. 
+
+<h3>Video</h3>
+<a href="ttps://drive.google.com/file/d/1l0UbthBbfantOGQix3AvlsGcCmrT_xBS/view?usp=drive_link">📄 View Video</a> <br>
+
+`}
         ]
     }
 };
@@ -412,6 +494,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
