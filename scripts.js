@@ -2,12 +2,38 @@
 const data = {
     ds: {
         title: "Discrete Structure",
-        desc: "This course introduces students to the principles and applications of discrete structure in the field of computer science.",
+        desc: `This course introduces students to the principles and applications of discrete structure in the field of computer science."
+		📚 <b>Lecturer:/b> Dr. Noorfa Haszlinna binti Mustaffa  <br>
+		🏫 <b>Section: 02</b>  <br>
+		🕐 <b>Credit Hours:</b> 3 hours <br>
+
+<br> <h3>Topic</h3>
+Chapter 1: Set Theory & Logic <br>
+Chapter 2: Relations and Functions <br>
+Chapter 3: Counting Methods & Probability  <br>
+Chapter 4: Graph Theory  <br>
+Chapter 5: Finite Automata  <br>`,
         reflection: "In this course, I got knowledges about principles and applications of discrete structure in the field of computer science. It gave me better understanding how these the mathematical concepts apply to real-world computing problems, including algorithms and data structures. One of the most useful aspects of this course was learning logical thinking and proof techniques. These skills helped me improve my ability to analyze problems step by step and justify solutions clearly.",
         items: [
-            { type: "Assignment", title: "Assignment 1 : Logic", description: "Propositions and truth tables." },
-            { type: "Assignment", title: "Assignment 2 : Relations", description: "Functions and equivalence relations." },
-            { type: "Assignment 3", title: "Assignment 3: ", description: "Graph traversal techniques." }
+            { type: "Assignment", title: "Assignment 1 : Set Theory & Logic", description: 
+				`
+				<b>Chapter 1:</b> Set Theory & Logic
+				<b>Due Date:</b> 22-30 October 2025 <br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:08e749ce-e2e7-4efe-b37f-6bf0fe9062cf" target="_blank">📄 View Question</a> <br>
+				` },
+            { type: "Assignment", title: "Assignment 2 : Relation, Function & Recurrence", description: `
+				<b>Chapter 2:</b> Relation, Function & Recurrence
+				<b>Due Date:</b> 17-26 November 2025 <br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:365cb04a-12ae-413d-8420-8a133361354f" target="_blank">📄 View Question</a> <br>
+				` },
+            { type: "Assignment 3", title: "Assignment 3: Counting & Discrete Probability", description:`
+				<b>Chapter 3:</b> Counting & Discrete Probability 
+				<b>Due Date:</b> 4 January 2026 <br>
+				<br>
+				<a href="https://acrobat.adobe.com/id/urn:aaid:sc:AP:f8ce1f85-a3ac-48b8-8e02-c4bf88a93350" target="_blank">📄 View Question</a> <br>
+				`}
         ]
     },
 
@@ -338,6 +364,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
