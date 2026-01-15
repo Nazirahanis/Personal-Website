@@ -17,7 +17,7 @@
     <div class="card">
         <h2 id="projectTitle"></h2>
         <p id="projectDesc"></p>
-        <p><span id="projectTools"></span></p>
+        <p><span id="projectUpdates"></span></p>
     </div>
 
 </div>
@@ -27,7 +27,7 @@ const projects = {
     portfolio: {
         title: "Null",
         desc: `Null`,
-        tools: " "
+        updates: " "
     }
 };
 
@@ -41,8 +41,8 @@ if (projects[projectKey]) {
         projects[projectKey].title;
     document.getElementById("projectDesc").innerText =
         projects[projectKey].desc;
-    document.getElementById("projectTools").innerText =
-        projects[projectKey].tools;
+    document.getElementById("projectUpdate").innerText =
+        projects[projectKey].updates;
 }
 
 function backToProjects() {
