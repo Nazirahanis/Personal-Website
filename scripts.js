@@ -328,8 +328,31 @@ In this session, mentors from Year 2 and 3 shared their experiences and study ti
 
 <h3>📖 Reflection</h3>
 To be a successful and well-rounded graduate, we cannot just focus on academics but also need to develop leadership and management skills, be proactive in self-learning and creating personal projects and also build good personality and professionalism. It reminded me how important it is to develop other skills beyond what we learn in class, such as communication and leadership. The programme also encouraged us to grab every opportunity and explore more about today’s world of technology, as computer science is a field that’s highly in demand yet very competitive.
-It was a really insightful session, and I learned a lot about the skills and mindset needed to prepare for the future. ` }
-        ]
+It was a really insightful session, and I learned a lot about the skills and mindset needed to prepare for the future. ` },
+
+		   { type: "Project", title: "Design Thinking", description: 
+`
+<h3>Objective</h3>
+<ul>
+<li>Developing a prototype based on the selected theme.</li>
+<li>Apply Design Thinking Process to create the prototype.</li>
+<li>Create a report and video for project documentation.</li>
+<li>Present the project durinf the class.</li>
+</ul>
+
+<h3>Theme</h3>
+Student Engagement and Wellness Analytic
+
+<h3>Report</h3>
+<ul>
+<li> <a href="https://docs.google.com/document/d/1zWVqpqC5IWEnDiv2BRUjVQPZP-ZYgw8W8erIJ_sMbk8/edit?tab=t.0" target="_blank">📄 View Report</a> </li> <br>
+</ul>
+
+<h3>Video</h3>
+<ul>
+<li> <a href="https://youtu.be/GthMQMXqYpA?si=kPf8D7esfwgwEOgm" target="_blank">Video</a> </li> <br>
+</ul>
+ ` },       ]
     },
 
     dl: {
@@ -564,6 +587,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
