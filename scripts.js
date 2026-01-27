@@ -352,7 +352,9 @@ Student Engagement and Wellness Analytic
 <ul>
 <li> <a href="https://youtu.be/GthMQMXqYpA?si=kPf8D7esfwgwEOgm" target="_blank">Video</a> </li> <br>
 </ul>
- ` },       ]
+ ` 
+		   },       
+	   ]
     },
 
     dl: {
@@ -587,6 +589,7 @@ window.onload = function () {
         localStorage.removeItem("skipLanding");
     }
 };
+
 
 
 
